@@ -1,0 +1,14 @@
+{
+  "name": "agentic-os",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.80.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}

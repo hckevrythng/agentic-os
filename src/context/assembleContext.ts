@@ -1,0 +1,1 @@
+export function assembleContext(r,i,s,e){return{user:i,session:s,environment:e,input:r};}

@@ -1,0 +1,15 @@
+import { Context, IdentityState, SessionState, Environment } from "../types";
+
+export function assembleContext(
+  request: any,
+  identity: IdentityState,
+  session: SessionState,
+  environment: Environment
+): Context {
+  return {
+    user: identity,
+    session,
+    environment,
+    input: request
+  };
+}

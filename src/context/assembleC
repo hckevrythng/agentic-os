@@ -1,0 +1,8 @@
+export function assembleContext(request, identity, session, environment) {
+  return {
+    user: identity,
+    session,
+    environment,
+    input: request
+  };
+}
